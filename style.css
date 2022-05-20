@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    overflow-x: hidden;
+
 }
 
 :root {
@@ -47,6 +47,7 @@ body {
     text-align: center;
 
     overflow: overlay;
+    overflow-x: hidden;
 }
 
 
@@ -436,7 +437,7 @@ body.menu-expanded button path {
     flex-direction: column;
     justify-content: center;
     gap: 6rem;
-    margin-left: -7rem;
+    margin-left: -5rem;
 
 }
 
