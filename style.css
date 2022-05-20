@@ -10,8 +10,8 @@
 :root {
 
 
-    --primary-color: rgb(214, 4, 4);
-    --headline: rgb(42, 34, 34);
+    --primary-color: rgb(4, 147, 214);
+    --headline: hsl(210, 11%, 15%, 1);
     --paragraph: hsl(210, 9%, 31%, 1);
 
     --brand-beige: hsl(39, 100%, 97%, 1);
