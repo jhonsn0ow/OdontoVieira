@@ -150,7 +150,7 @@ body.menu-expanded .menu {
     background: var(--primary-color);
 
     width: 100vw;
-    height: 170vw;
+    height: 200vw;
 
     padding-top: var(--nav-height);
 
