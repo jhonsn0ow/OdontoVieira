@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    
+    box-sizing: border-box;
 
     
 
@@ -347,8 +347,10 @@ body.menu-expanded button path {
 #services .caixa {
     background-color: var(--brand-beige);
     width: 40rem;
-    position: relative;
-    left: -5rem;
+    
+    justify-content: center;
+    margin-left: -5rem;
+  
    
 }
 
@@ -422,6 +424,7 @@ body.menu-expanded button path {
 .cards {
     display: flex;
     flex-direction: column;
+    
 }
 
 
@@ -431,25 +434,24 @@ body.menu-expanded button path {
     background-color: var(--brand-light)}
     
 #sobre .caixa {
+    background-color: var(--primary-color);
     width: 40rem;
     padding-block: 4rem;
-   position: relative;
-   left: -5rem;
+   
     
     
+    justify-content: center;
     
     
-  
-    background-color: var(--primary-color);
    
     
   
+    
+    
+    margin-left: -5rem;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     gap: 6rem;
-    margin-left: -5rem;
-
 }
 
 .qms {
