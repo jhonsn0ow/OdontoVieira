@@ -340,7 +340,7 @@ body.menu-expanded button path {
 #services .caixa {
     background-color: var(--brand-beige);
     width: 40rem;
-    margin-left: -2rem;
+    margin-left: -1rem;
 }
 
 .serv {
@@ -424,6 +424,7 @@ body.menu-expanded button path {
     width: 40rem;
     padding-block: 4rem;
     margin-inline: auto;
+    margin-left: 1rem;
     
     
     
