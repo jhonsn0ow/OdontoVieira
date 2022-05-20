@@ -37,6 +37,7 @@ html,
 body {
     width: 100%;
     height: 100%;
+    overflow-x: hidden;
 }
 
 body {
@@ -149,7 +150,7 @@ body.menu-expanded .menu {
     background: var(--primary-color);
 
     width: 100vw;
-    height: 120.5vw;
+    height: 150vw;
 
     padding-top: var(--nav-height);
 
