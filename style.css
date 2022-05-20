@@ -15,7 +15,7 @@
     --paragraph: hsl(210, 9%, 31%, 1);
 
     --brand-beige: hsl(39, 100%, 97%, 1);
-    --brand-light: rgb(208, 228, 234);
+    --brand-light: rgb(255, 8, 0);
     --brand-dark: rgb(194, 194, 194);
 
 
@@ -58,7 +58,7 @@ body {
 
 .wrapper {
     width: min(50rem, 100%);
-    margin-inline: auto;
+    
     padding-inline: 2.4rem;
 }
 
