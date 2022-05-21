@@ -349,6 +349,10 @@ body.menu-expanded button path {
     width: 40rem;
     
     justify-content: center;
+
+    position: relative;
+    left: 3rem;
+    
    
   
    
@@ -448,7 +452,7 @@ body.menu-expanded button path {
   
     
     
-    margin-left: -1rem;
+    margin-left: 2rem;
     display: flex;
     flex-direction: column;
     gap: 6rem;
