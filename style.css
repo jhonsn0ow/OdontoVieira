@@ -10,7 +10,7 @@
 :root {
 
 
-    --primary-color: rgb(0, 255, 30);
+    --primary-color: rgb(34, 148, 230);
     --headline: hsl(210, 11%, 15%, 1);
     --paragraph: hsl(210, 9%, 31%, 1);
 
@@ -351,7 +351,7 @@ body.menu-expanded button path {
     justify-content: center;
 
     position: relative;
-    left: -4.3rem;
+    left: -4.1rem;
     
    
   
@@ -440,7 +440,7 @@ body.menu-expanded button path {
 #sobre .caixa {
     background-color: var(--primary-color);
     width: 40rem;
-    padding-block: 4.2rem;
+    padding-block: 4rem;
    
     
     
@@ -448,7 +448,7 @@ body.menu-expanded button path {
     
 
     
-    margin-left: -4rem;
+    margin-left: -4.1rem;
     display: flex;
     flex-direction: column;
     gap: 6rem;
@@ -573,6 +573,8 @@ text-decoration: none;
     
     display: flex; 
     margin-bottom: -3rem;
+    position: fixed;
+    left: 0;
     
 }
 
