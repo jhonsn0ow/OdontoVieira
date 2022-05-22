@@ -14,7 +14,7 @@
     --headline: hsl(210, 11%, 15%, 1);
     --paragraph: hsl(210, 9%, 31%, 1);
 
-    --brand-beige: rgb(241, 240, 237);
+    --brand-beige: rgb(246, 244, 239);
     --brand-light: rgb(208, 228, 234);
     --brand-dark: rgb(194, 194, 194);
 
@@ -351,7 +351,7 @@ body.menu-expanded button path {
     justify-content: center;
 
     position: relative;
-    left: -4.5rem;
+    left: -3.9rem;
     
    
   
@@ -448,7 +448,7 @@ body.menu-expanded button path {
     
 
     
-    margin-left: -4.4rem;
+    margin-left: -3.7rem;
     display: flex;
     flex-direction: column;
     gap: 6rem;
