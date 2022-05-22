@@ -14,7 +14,7 @@
     --headline: hsl(210, 11%, 15%, 1);
     --paragraph: hsl(210, 9%, 31%, 1);
 
-    --brand-beige: hsl(39, 100%, 97%, 1);
+    --brand-beige: rgb(241, 240, 237);
     --brand-light: rgb(208, 228, 234);
     --brand-dark: rgb(194, 194, 194);
 
@@ -64,7 +64,7 @@ body {
 
 .logoum {
     margin-bottom: -0.1rem;
-    margin-left: -7.6rem;
+    margin-left: -7.1rem;
 
 
 }
@@ -485,7 +485,7 @@ body.menu-expanded button path {
 #sobre p {
     
     color: white;
-    font-size: 1rem;
+    font-size: 2rem;
     line-height: 150%;
     margin-top: 1rem;
 }
@@ -572,9 +572,10 @@ text-decoration: none;
 #iconesloc svg {
     
     display: flex; 
-    margin-bottom: -3rem;
+    margin-bottom: -4rem;
     position: fixed;
     left: 0;
+    width: 2rem;
     
 }
 
