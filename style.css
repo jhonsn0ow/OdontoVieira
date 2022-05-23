@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 
+
     
 
 }
@@ -14,7 +15,7 @@
     --headline: hsl(210, 11%, 15%, 1);
     --paragraph: hsl(210, 9%, 31%, 1);
 
-    --brand-beige: rgb(246, 244, 239);
+    --brand-beige: rgb(255, 255, 255);
     --brand-light: rgb(208, 228, 234);
     --brand-dark: rgb(194, 194, 194);
 
@@ -23,6 +24,7 @@
     /* 1rem = 10px */
 
     --nav-height: 7.2rem;
+    
 
 }
 
@@ -424,6 +426,7 @@ body.menu-expanded button path {
 
 .card {
     padding: 2.8rem;
+    
 }
 .cards {
     display: flex;
@@ -487,7 +490,9 @@ body.menu-expanded button path {
     color: white;
     font-size: 2rem;
     line-height: 150%;
-    margin-top: 1rem;
+   position: relative;
+   top: -12rem;
+    
 }
 
 #sobre .sobresocial {
@@ -496,6 +501,10 @@ body.menu-expanded button path {
     text-decoration: none;
    
     
+}
+#sobre h3 {
+position: relative;
+top: -13rem;
 }
 #sobre .butagendar {
     text-decoration: none;
@@ -534,28 +543,23 @@ body.menu-expanded button path {
     
 }
 
-#sobre .agora {
-    display: flex;
-    justify-content: space-between;
-    
-}
 
 
 
-#sobre .col-d {
-    margin-top: -7rem;
+#sobre .butjanga {
+   
     text-decoration: none;
     cursor: pointer;
-    position: relative;
-    left: -16.4rem;
-    bottom: 2rem;
+    margin-top: -9rem;
+    margin-left: 7rem;
 }
 
-#sobre .col-c {
+#sobre .butjp {
     text-decoration: none;
-    position: relative;
-    right: -10rem;
+    margin-left: 7rem;
+    margin-top: -33rem;
 }
+   
 
 
 #sobre a {
@@ -818,6 +822,9 @@ top: -10rem;
     position: relative;
     left: -4rem;
 }
+#services .card {
+    margin-top: 5rem;
+}
 /*====================SOBRE=================================*/
 #sobre .wrapper {
     grid-template-columns: 1fr 1fr;
@@ -865,6 +872,8 @@ top: -10rem;
     width: 200%;
     position: relative;
     left: -4rem;
+    
+
 }
 #sobre .agora {
     display: flex;
