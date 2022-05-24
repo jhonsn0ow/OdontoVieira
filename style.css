@@ -351,9 +351,12 @@ body.menu-expanded button path {
     width: 40rem;
     
     justify-content: center;
+    margin-left: -3.7rem;
 
-    position: relative;
-    left: -3.9rem;
+    
+    
+    border: 10px solid var(--primary-color);
+    border-radius: 3rem;
     
    
   
@@ -445,7 +448,8 @@ body.menu-expanded button path {
     width: 40rem;
     padding-block: 4rem;
    
-    
+    border: 10px solid white;
+    border-radius: 3rem;
     
     justify-content: center;
     
@@ -487,11 +491,13 @@ body.menu-expanded button path {
 }
 #sobre p {
     
-    color: white;
+    color: rgb(255, 255, 255);
     font-size: 2rem;
     line-height: 150%;
    position: relative;
    top: -12rem;
+   text-transform: uppercase;
+   
     
 }
 
@@ -821,6 +827,7 @@ top: -10rem;
     width: 100%;
     position: relative;
     left: -4rem;
+
 }
 #services .card {
     margin-top: 5rem;
@@ -833,28 +840,30 @@ top: -10rem;
 #sobre .col-a {
     grid-area: A;
     position: relative;
-    left: -1rem;
-    top: -5rem;
+    left: rem;
+    top: 2rem;
 }
 #sobre .col-b {
     grid-area: B;
     position: relative;
-    top: -16rem;
+    top: -9rem;
     right: -1rem;
 }
 #sobre .col-c {
     grid-area: C;
     position: relative;
-    top: -35.9rem;
-    left: 22rem;
+    top: -23rem;
+    left: 36.9rem;
     text-decoration: none;
+    
 }
 
 #sobre .col-d {
     grid-area: D;
     position: relative;
-    top: -29rem;
-    left: -20rem;
+    top: -16.7em;
+    left: 44rem;
+    margin: 0;
 }
 
 #sobre .col-e {
@@ -875,11 +884,20 @@ top: -10rem;
     
 
 }
-#sobre .agora {
-    display: flex;
-    justify-content: space-between;
-    height: 0;
+
+
+#sobre .butagendar {
+    margin: 0;
+   
 }
+
+
+
+
+
+
+   
+
 footer {
     text-decoration: none;
     color: white;
