@@ -22,9 +22,9 @@ function onScroll() {
 
 function showNavOnScroll() {
     if (scrollY > 0) {
-        navigation.classList.add('scroll')
+        navi.classList.add('scroll')
         } else {
-            navigation.classList.remove('scroll')
+            navi.classList.remove('scroll')
         }  
 }
 function showBackToTopButtonOnScroll() {

@@ -555,7 +555,7 @@ footer {
   /*=====================NAVIGATION==================================*/
 
   /*=========RESET===================*/
-  nav#navigation .wrapper * {
+  nav#navi .wrapper * {
     margin: 0;
     padding: 0;
     visibility: initial;
@@ -569,29 +569,29 @@ footer {
     background-color: initial;
     font-weight: initial;
   }
-  nav#navigation .close-menu,
-  nav#navigation .open-menu,
-  nav#navigation .social-links,
-  nav#navigation .logodois {
+  nav#navi .close-menu,
+  nav#navi .open-menu,
+  nav#navi .social-links,
+  nav#navi .logodois {
     display: none;
   }
 
-  nav#navigation .menu {
+  nav#navi .menu {
     display: flex;
     align-items: center;
     justify-content: space-between;
     width: 60%;
   }
-  nav#navigation .menu ul:nth-child(1) {
+  nav#navi .menu ul:nth-child(1) {
     display: flex;
     gap: 3.2rem;
   }
-  nav#navigation .menu ul li a {
+  nav#navi .menu ul li a {
     color: var(--primary-color);
     opacity: 0.7;
     font-weight: bold;
   }
-  nav#navigation .menu a.button {
+  nav#navi .menu a.button {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -607,17 +607,17 @@ footer {
     line-height: 1.8;
     text-transform: uppercase;
   }
-  nav#navigation .menu li a {
+  nav#navi .menu li a {
     transition: opacity 0.4s;
   }
 
-  nav#navigation .menu li a:active,
-  nav#navigation .menu li a:hover {
+  nav#navi .menu li a:active,
+  nav#navi .menu li a:hover {
     opacity: 1;
     font-weight: 700;
   }
 
-  nav#navigation .menu li a::after {
+  nav#navi .menu li a::after {
     content: '';
     width: 0%;
     height: 2px;
@@ -632,14 +632,14 @@ footer {
     transition: width 0.2s;
   }
 
-  nav#navigation .menu li a:active::after,
-  nav#navigation .menu li a:hover::after {
+  nav#navi .menu li a:active::after,
+  nav#navi .menu li a:hover::after {
     padding-inline: 0.8rem;
     width: 100%;
   }
 
-  nav#navigation.scroll .menu a.button:active,
-  nav#navigation.scroll .menu a.button:hover {
+  nav#navi .scroll .menu a.button:active,
+  nav#navi .scroll .menu a.button:hover {
     background-color: var(--primary-color);
     color: white;
     filter: brightness(1.3);
