@@ -59,4 +59,8 @@ ScrollReveal({
  #services .header,
  #services .cards,
  #services .butserv,
- #sobre`)
+ #sobre, .qms,
+ #sobre .ptext,
+ #sobre .cardos,
+ #sobre .horario,
+ #sobre .iconesloc`)

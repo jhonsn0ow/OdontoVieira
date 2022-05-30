@@ -334,19 +334,17 @@ body.menu-expanded button path {
   margin-left: auto;
 }
 .hs img {
-    width: 30rem;
-    position: relative;
-    top: -0.6rem;
-    
+  width: 30rem;
+  position: relative;
+  top: -0.6rem;
 }
-#services h1{
-    text-transform: uppercase;
-    font-size: 2.5rem;
+#services h1 {
+  text-transform: uppercase;
+  font-size: 2.5rem;
   color: rgb(17, 131, 238);
   position: relative;
   top: -5.8rem;
   letter-spacing: 2px;
-
 }
 
 #services a {
@@ -368,9 +366,8 @@ body.menu-expanded button path {
 }
 
 #sobre .caixa {
-  
   width: 40rem;
-  background-color:rgba(34, 148, 230, 0.712) ;
+  background-color: rgba(34, 148, 230, 0.712);
   padding-block: 4rem;
 
   border-radius: 3rem;
@@ -385,10 +382,9 @@ body.menu-expanded button path {
 
 .cardo img {
   width: 21rem;
-  
 }
 
-.qms h2{
+.qms h2 {
   font-size: 2.5rem;
   color: rgb(17, 131, 238);
   line-height: 130%;
@@ -409,16 +405,16 @@ body.menu-expanded button path {
   text-align: left;
   position: relative;
   top: -12rem;
-  margin: 0 auto; 
+  margin: 0 auto;
   background: var(--brand-light);
   border-radius: 15px;
   width: 300px;
   height: auto;
   padding: 20px;
-  
 }
-.ptext:after{ /*Triangulo*/
-  content: "";
+.ptext:after {
+  /*Triangulo*/
+  content: '';
   width: 0;
   height: 0;
   position: absolute;
@@ -430,9 +426,6 @@ body.menu-expanded button path {
   top: -20px; /*localização. Experimente alterar para 'bottom'*/
   left: 20%;
 }
-
-
-
 
 .cardo1 img {
   position: relative;
@@ -462,15 +455,13 @@ body.menu-expanded button path {
   color: rgb(255, 255, 255);
   font-size: 1.5rem;
   position: relative;
-  top: -1.7rem;}
-
- .cardo2 img {
-    position: relative;
-    top: -3.8rem;
+  top: -1.7rem;
 }
 
-
-
+.cardo2 img {
+  position: relative;
+  top: -3.8rem;
+}
 
 .horario h3 {
   font-size: 2rem;
@@ -481,7 +472,7 @@ body.menu-expanded button path {
   line-height: 130%;
   margin-bottom: 10rem;
   position: relative;
-    top: -33rem;
+  top: -33rem;
 }
 .ender {
   font-size: 2rem;
@@ -496,14 +487,13 @@ body.menu-expanded button path {
 }
 .horario p {
   color: rgb(255, 255, 255);
-  
-    font-weight: bold;
-    font-size: 2rem;
+
+  font-weight: bold;
+  font-size: 2rem;
   text-transform: uppercase;
 
   position: relative;
-    top: -11rem;
-  
+  top: -11rem;
 }
 #iconesloc h3 {
   font-size: 2rem;
@@ -590,11 +580,11 @@ body.menu-expanded button path {
 #iconesloc p {
   margin-bottom: 2rem;
   position: relative;
-    top: -11rem;
-    color: rgb(255, 255, 255);
-  
-    font-weight: bold;
-    font-size: 2rem;
+  top: -11rem;
+  color: rgb(255, 255, 255);
+
+  font-weight: bold;
+  font-size: 2rem;
   text-transform: uppercase;
 }
 
@@ -611,10 +601,10 @@ body.menu-expanded button path {
 #sobre p {
   color: rgb(237, 227, 227);
 }
-#sobre #iframe, #iframe2{
+#sobre #iframe,
+#iframe2 {
   display: none;
 }
-
 
 footer {
   color: white;
@@ -832,6 +822,9 @@ footer {
     grid-template-columns: 1fr 1fr;
     grid-template-areas: 'A B C D E';
   }
+  #sobre {
+    overflow-y: hidden;
+  }
   #sobre .col-a {
     grid-area: A;
     position: relative;
@@ -866,21 +859,40 @@ footer {
     top: -10rem;
     left: 1rem;
   }
+  .qms img {
+    position: relative;
+    top: 17.5rem;
+  }
+  .qms h2 {
+    position: relative;
+    top: 12rem;
+  }
 
   #sobre .rdssociais {
     height: 0;
+    position: relative;
+    top: -15rem;
   }
 
   #sobre .caixa {
     width: 174%;
     position: relative;
     left: -4rem;
+    height: 200rem;
   }
 
   #sobre .butagendar {
     margin: 0;
     right: 2rem;
-    top: -6rem;
+    top: 2rem;
+  }
+  #sobre .butjp a {
+    position: relative;
+    right: 10rem;
+  }
+  #sobre .butjanga a {
+    position: relative;
+    left: 10rem;
   }
 
   #sobre a {
@@ -894,37 +906,44 @@ footer {
 
   #sobre .ptext {
     width: 60rem;
+    position: relative;
+    top: 10rem;
   }
   .cardo1 img {
     position: relative;
-    top: -15rem;
+    top: -4rem;
     right: 25%;
+    border-radius:  5px;
   }
   .cardo1 h5 {
     position: relative;
-    top: -14rem;
-    
-    right: 25%
+    top: -3.5rem;
+
+    right: 25%;
   }
-    #sobre .perro {
-      position: relative;
-      top: -13rem;
-      right: 25%;
-    }
-    .cardo2 img {
-      position: relative;
-      top: -49.8rem;
-      left: 25%;
-    }
-    .cardo2 h5 {
-      position: relative;
-      top: -40rem;
-      left: 25%;
+  #sobre .perro {
+    position: relative;
+    top: -3rem;
+    right: 25%;
+    display: inline-block;
+  }
+  .cardo2 img {
+    position: relative;
+    top: -39rem;
+    left: 33%;
+    border-radius: 5px;
+  }
+  .cardo2 h5 {
+    position: relative;
+    top: -27.3rem;
+    display: inline-block;
+    left: 13%;
   }
   #sobre .perro2 {
     position: relative;
-    top: -38.7rem;
-    left: 25%;
+    top: -24.7rem;
+    left: -2%;
+    display: inline-block
   }
   #sobre .horario h3 {
     font-size: 2rem;
@@ -935,33 +954,68 @@ footer {
     line-height: 130%;
     margin-bottom: 10rem;
     position: relative;
-    top: -50rem
-}
-.horario p {
-  position: relative;
-  top: -56rem;
-}
-#sobre #iconesloc h3 {
-  position: relative;
-  top: -47rem
-}
-#iconesloc p {
-  position: relative;
-  top: -38rem;
-}
-#sobre #iframe {
-  position: relative;
-  right: 2rem;
-  top: -27rem;
-  display: inline;
-}
-#sobre #iframe2 {
-  position: relative;
-  left: 2rem;
-  top: -27rem;
-  display: inline;
-}
-  footer {
+    top: -40rem;
+  }
+  .horario p {
+    position: relative;
+    top: -46rem;
+  }
+  #sobre #iconesloc h3 {
+    position: relative;
+    top: -37rem;
+    left: -1rem;
+  }
+  #iconesloc p {
+    position: relative;
+    top: -38rem;
+  }
+  #sobre #iframe {
+    position: relative;
+    right: 2rem;
+    top: -30rem;
+    display: inline-block;
+  }
+  #sobre #iframe2 {
+    position: relative;
+    left: 2rem;
+    top: -30rem;
+    display: inline-block;
+  }
+  #sobre .p1 {
+    color: var(--primary-color);
+    text-transform: none;
+    font-size: 2rem;
+    text-align: left;
+    position: relative;
+    top: -27rem;
+    background: var(--brand-light);
+    border-radius: 15px;
+    width: 34.2rem;
+    height: auto;
+    padding: 20px;
+    right: 22%;
+    margin: 0;
+    display: inline-block;
+  }
+  #sobre .p2 {
+    color: var(--primary-color);
+    text-transform: none;
+    font-size: 2rem;
+    text-align: left;
+    position: relative;
+    top: -38.9rem;
+    margin: 0;
+    background: var(--brand-light);
+    border-radius: 15px;
+    width: 342px;
+    height: auto;
+    padding: 20px;
+    font-weight: 200;
+    left: 22%;
+    display: inline-block;
+  }
+
+  footer a {
     text-decoration: none;
     color: white;
   }
