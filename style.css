@@ -403,17 +403,37 @@ body.menu-expanded button path {
   bottom: 4.7rem;
 }
 #sobre .ptext {
-  color: rgb(255, 255, 255);
+  color: var(--primary-color);
   text-transform: none;
   font-size: 2rem;
   text-align: left;
-  padding-left: 13px;
-  padding-right: 10px;
-  margin-top: 5px;
   position: relative;
-    top: -7rem;
-    
+  top: -12rem;
+  margin: 0 auto; 
+  background: var(--brand-light);
+  border-radius: 15px;
+  width: 300px;
+  height: auto;
+  padding: 20px;
+  
 }
+.ptext:after{ /*Triangulo*/
+  content: "";
+  width: 0;
+  height: 0;
+  position: absolute;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  /*Faz seta "apontar para baixo. Definir o valor como 'top' fará ela "apontar para cima" */
+  /*Aqui entra a cor da "aba" do balão */
+  border-bottom: 20px solid var(--brand-light);
+  top: -20px; /*localização. Experimente alterar para 'bottom'*/
+  left: 20%;
+}
+
+
+
+
 .cardo1 img {
   position: relative;
   top: -11.8rem;
@@ -590,6 +610,9 @@ body.menu-expanded button path {
 
 #sobre p {
   color: rgb(237, 227, 227);
+}
+#sobre #iframe, #iframe2{
+  display: none;
 }
 
 
@@ -856,6 +879,8 @@ footer {
 
   #sobre .butagendar {
     margin: 0;
+    right: 2rem;
+    top: -6rem;
   }
 
   #sobre a {
@@ -866,8 +891,76 @@ footer {
   #sobre .agora {
     display: flex;
   }
-   
 
+  #sobre .ptext {
+    width: 60rem;
+  }
+  .cardo1 img {
+    position: relative;
+    top: -15rem;
+    right: 25%;
+  }
+  .cardo1 h5 {
+    position: relative;
+    top: -14rem;
+    
+    right: 25%
+  }
+    #sobre .perro {
+      position: relative;
+      top: -13rem;
+      right: 25%;
+    }
+    .cardo2 img {
+      position: relative;
+      top: -49.8rem;
+      left: 25%;
+    }
+    .cardo2 h5 {
+      position: relative;
+      top: -40rem;
+      left: 25%;
+  }
+  #sobre .perro2 {
+    position: relative;
+    top: -38.7rem;
+    left: 25%;
+  }
+  #sobre .horario h3 {
+    font-size: 2rem;
+    color: var(--primary-color);
+    border: 2px solid white;
+    border-radius: 5px;
+    background-color: white;
+    line-height: 130%;
+    margin-bottom: 10rem;
+    position: relative;
+    top: -50rem
+}
+.horario p {
+  position: relative;
+  top: -56rem;
+}
+#sobre #iconesloc h3 {
+  position: relative;
+  top: -47rem
+}
+#iconesloc p {
+  position: relative;
+  top: -38rem;
+}
+#sobre #iframe {
+  position: relative;
+  right: 2rem;
+  top: -27rem;
+  display: inline;
+}
+#sobre #iframe2 {
+  position: relative;
+  left: 2rem;
+  top: -27rem;
+  display: inline;
+}
   footer {
     text-decoration: none;
     color: white;
