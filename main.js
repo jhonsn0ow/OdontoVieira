@@ -63,4 +63,4 @@ ScrollReveal({
  #sobre .ptext,
  #sobre .cardos,
  #sobre .horario,
- #sobre .iconesloc`)
+ #sobre #iconesloc`)
