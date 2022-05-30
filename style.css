@@ -701,6 +701,10 @@ footer {
     line-height: 1.8;
     text-transform: uppercase;
   }
+  nav#navi .menu a:hover.button{
+    background-color: var(--primary-color);
+    color: white;
+  }
   nav#navi .menu li a {
     transition: opacity 0.4s;
   }
@@ -709,6 +713,7 @@ footer {
   nav#navi .menu li a:hover {
     opacity: 1;
     font-weight: 700;
+    
   }
 
   nav#navi .menu li a::after {
@@ -1019,4 +1024,5 @@ footer {
     text-decoration: none;
     color: white;
   }
+  
 }
