@@ -368,8 +368,9 @@ body.menu-expanded button path {
 }
 
 #sobre .caixa {
-  background-color: var(--primary-color);
+  
   width: 40rem;
+  background-color:rgba(34, 148, 230, 0.712) ;
   padding-block: 4rem;
 
   border-radius: 3rem;
@@ -380,6 +381,11 @@ body.menu-expanded button path {
   display: flex;
   flex-direction: column;
   gap: 6rem;
+}
+
+.cardo img {
+  width: 21rem;
+  
 }
 
 .qms h2{
@@ -396,11 +402,66 @@ body.menu-expanded button path {
   position: relative;
   bottom: 4.7rem;
 }
-.horario {
+#sobre .ptext {
+  color: rgb(255, 255, 255);
+  text-transform: none;
   font-size: 2rem;
-  color: rgb(51, 24, 24);
+  text-align: left;
+  padding-left: 13px;
+  padding-right: 10px;
+  margin-top: 5px;
+  position: relative;
+    top: -7rem;
+    
+}
+.cardo1 img {
+  position: relative;
+  top: -11.8rem;
+}
+.cardo1 h5 {
+  letter-spacing: 2px;
+  position: relative;
+  top: -11rem;
+  text-transform: uppercase;
+  color: white;
+}
+#sobre .perro {
+  color: rgb(255, 255, 255);
+  font-size: 1.5rem;
+  position: relative;
+  top: -10rem;
+}
+.cardo2 h5 {
+  letter-spacing: 2px;
+  position: relative;
+  top: -3rem;
+  text-transform: uppercase;
+  color: white;
+}
+#sobre .perro2 {
+  color: rgb(255, 255, 255);
+  font-size: 1.5rem;
+  position: relative;
+  top: -1.7rem;}
+
+ .cardo2 img {
+    position: relative;
+    top: -3.8rem;
+}
+
+
+
+
+.horario h3 {
+  font-size: 2rem;
+  color: var(--primary-color);
+  border: 2px solid white;
+  border-radius: 5px;
+  background-color: white;
   line-height: 130%;
   margin-bottom: 10rem;
+  position: relative;
+    top: -33rem;
 }
 .ender {
   font-size: 2rem;
@@ -413,13 +474,25 @@ body.menu-expanded button path {
   font-size: 2rem;
   color: white;
 }
-#sobre p {
+.horario p {
   color: rgb(255, 255, 255);
-  font-size: 2.3rem;
-  line-height: 150%;
-  position: relative;
-  top: -12rem;
+  
+    font-weight: bold;
+    font-size: 2rem;
   text-transform: uppercase;
+
+  position: relative;
+    top: -11rem;
+  
+}
+#iconesloc h3 {
+  font-size: 2rem;
+  color: var(--primary-color);
+  border: 2px solid white;
+  border-radius: 5px;
+  background-color: white;
+  line-height: 130%;
+  margin-bottom: 10rem;
 }
 
 #sobre .sobresocial {
@@ -496,6 +569,13 @@ body.menu-expanded button path {
 
 #iconesloc p {
   margin-bottom: 2rem;
+  position: relative;
+    top: -11rem;
+    color: rgb(255, 255, 255);
+  
+    font-weight: bold;
+    font-size: 2rem;
+  text-transform: uppercase;
 }
 
 #sobre h3 {
@@ -511,6 +591,7 @@ body.menu-expanded button path {
 #sobre p {
   color: rgb(237, 227, 227);
 }
+
 
 footer {
   color: white;
@@ -785,6 +866,7 @@ footer {
   #sobre .agora {
     display: flex;
   }
+   
 
   footer {
     text-decoration: none;
